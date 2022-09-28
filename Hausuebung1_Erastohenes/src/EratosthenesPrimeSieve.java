@@ -11,6 +11,9 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
         for(int i = 2; i<= grenze; i++){
             boo[i] = false;
         }
+        for(int j = 2; j<= grenze; j++){
+            isPrime(j);
+        }
     }
 
     @Override
@@ -29,7 +32,9 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
     public void printPrimes() {
         System.out.println("Liste von Primes");
         for(int i = 2; i < boo.length; i++){
-            System.out.println(boo[i]);
+            if(boo[i] == false) {
+                System.out.println(i);
+            }
         }
     }
 }
