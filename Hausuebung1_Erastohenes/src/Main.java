@@ -5,6 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in, "Windows-1252");
         System.out.println("Wieviele Primzahlen wollen Sie?");
         int i = sc.nextInt();
-        
+        EratosthenesPrimeSieve eps = new EratosthenesPrimeSieve(i);
+        eps.printPrimes();
     }
 }
