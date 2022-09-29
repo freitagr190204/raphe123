@@ -21,6 +21,21 @@ public class NumberTester {
     }
 
     public void testFile(){
+        switch(){
+            case 1:
+                setOddEvenTester((number) -> (number%2) == 0);
 
+                break;
+
+            case 2:
+                setPrimeTester(number -> );
+
+                break;
+
+            case 3:
+                setPalindromeTester(number -> );
+
+                break;
+        }
     }
 }
