@@ -1,3 +1,7 @@
+package n2;
+
+import n2.NumberTest;
+
 public class NumberTester {
 
     public NumberTester(String fileName){

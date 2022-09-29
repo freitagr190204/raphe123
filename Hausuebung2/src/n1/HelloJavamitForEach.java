@@ -1,3 +1,5 @@
+package n1;
+
 import java.util.LinkedList;
 
 public class HelloJavamitForEach {
